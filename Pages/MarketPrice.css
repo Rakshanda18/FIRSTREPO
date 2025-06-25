@@ -1,0 +1,27 @@
+.market-price-container {
+    padding: 20px;
+    text-align: center;
+}
+
+.market-price-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+.market-price-table th,
+.market-price-table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: center;
+}
+
+.market-price-table th {
+    background-color: blue;
+    font-weight: bold;
+}
+
+.error-message {
+    color: red;
+    font-weight: bold;
+}

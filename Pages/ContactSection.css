@@ -1,0 +1,142 @@
+.contact-container {
+    font-family: serif;
+    background-color: #121e22;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    min-height: 100vh;
+  }
+  
+  .contact-title {
+    font-size: 28px;
+    font-weight: bold;
+    margin-top: 40px;
+  }
+  
+  .underline {
+    width: 60px;
+    height: 4px;
+    background-color: orange;
+    margin: 8px auto 30px auto;
+    border-radius: 5px;
+  }
+  
+  .contact-section {
+    background-color: #0e1a1f;
+    padding: 30px 20px;
+    border-radius: 10px;
+    max-width: 750px;
+    margin: 0 auto 40px auto;
+  }
+  
+  .contact-info {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-bottom: 30px;
+    text-align: left;
+  }
+  
+  .info-block {
+    flex: 1 1 250px;
+    margin-bottom: 10px;
+    padding: 0 15px;
+    font-size: 15px;
+  }
+  
+  .info-block h4 {
+    margin-bottom: 6px;
+    font-size: 16px;
+    color: #ccc;
+  }
+  
+  .info-block p {
+    margin: 4px 0;
+    font-size: 15px;
+  }
+  
+  .icon {
+    margin-right: 6px;
+    color: orange;
+    font-size: 1.1em;
+  }
+  
+  .contact-form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+  }
+  
+  .input-row {
+    display: flex;
+    gap: 15px;
+    flex-wrap: wrap;
+  }
+  
+  .input-row input {
+    flex: 1;
+    padding: 12px;
+    border-radius: 5px;
+    border: none;
+    font-size: 15px;
+  }
+  
+  .contact-form input,
+  .contact-form textarea {
+    width: 100%;
+    padding: 12px;
+    font-size: 15px;
+    border-radius: 5px;
+    border: none;
+    box-sizing: border-box;
+  }
+  
+  textarea {
+    resize: vertical;
+    min-height: 100px;
+  }
+  
+  .contact-button {
+    background-color: #f26522;
+    color: black;
+    font-weight: bold;
+    padding: 14px;
+    border: none;
+    border-radius: 3px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+  }
+  
+  .contact-button:hover {
+    background-color: #e5530c;
+    transform: scale(1.02);
+    box-shadow: 0 0 10px #f26522aa;
+  }
+  
+  .contact-button:active {
+    transform: scale(0.98);
+  }
+  
+  .map-container {
+    margin-top: 30px;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+  }
+  
+  .map-container iframe {
+    width: 100%;
+    height: 300px;
+    border: none;
+  }
+  
+  @media (max-width: 600px) {
+    .input-row {
+      flex-direction: column;
+    }
+  
+    .info-block {
+      padding: 0;
+    }
+  }

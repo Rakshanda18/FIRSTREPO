@@ -1,0 +1,188 @@
+/* .hero {
+    position: relative;
+    background: url('https://wallpaperaccess.com/full/803470.jpg') center/cover no-repeat;
+    height: 90vh;
+    display: flex;
+    align-items: center;
+    color: white;
+  }
+  
+  .hero::before {
+    content: "";
+    position: absolute;
+    top: 0; left: 0;
+    width: 100%; height: 100%;
+    background: rgba(0, 0, 0, 0.4);
+  }
+  
+  .hero-content {
+    position: relative;
+    max-width: 600px;
+    margin-left: 60px;
+  }
+  
+  .hero-content h2 {
+    font-size: 48px;
+    font-family: 'Playfair Display', serif;
+    line-height: 1.2;
+    margin-bottom: 10px;
+  }
+  
+  .underline {
+    width: 50px;
+    height: 5px;
+    background-color: #ff5e00;
+    margin: 10px 0 20px;
+  }
+  
+  .hero-content p {
+    font-size: 18px;
+    margin-bottom: 30px;
+    font-weight: 500;
+  }
+  
+  .hero-content button {
+    padding: 12px 24px;
+    font-size: 16px;
+    font-weight: bold;
+
+    background: transparent;
+    color: white;
+    border: 2px solid #ff5e00;
+    cursor: pointer;
+    font-family: serif;
+  }
+  
+  .hero-content button:hover {
+    background-color: #ff5e00;
+  }
+   */
+
+   /* .hero {
+    position: relative;
+    background: url('https://wallpaperaccess.com/full/803470.jpg') center/cover no-repeat;
+    height: 90vh;
+    display: flex;
+    align-items: center;
+    color: white;
+  }
+  
+  .hero::before {
+    content: "";
+    position: absolute;
+    top: 0; left: 0;
+    width: 100%; height: 100%;
+    background: rgba(0, 0, 0, 0.4);
+  }
+  
+  .hero-content {
+    position: relative;
+    max-width: 600px;
+    margin-left: 60px;
+  }
+  
+  .hero-content h2 {
+    font-size: 30px;
+    font-family:  serif;
+    line-height: 1.2;
+    margin-bottom: 10px;
+    text-align: left;
+  }
+  
+  .underline {
+    width: 50px;
+    height: 5px;
+    background-color: #ff5e00;
+    margin: 10px 0 20px;
+  }
+  
+  .hero-content p {
+    font-size: 18px;
+    margin-bottom: 30px;
+    font-weight: 500;
+  }
+  
+  .hero-content button {
+    padding: 12px 24px;
+    font-size: 16px;
+    font-weight: bold;
+    background: transparent;
+    color: white;
+    border: 2px solid #ff5e00;
+    cursor: pointer;
+  }
+  
+  .hero-content button:hover {
+    background-color: #ff5e00;
+  }
+   */
+
+   .hero {
+    position: relative;
+    background: url('https://wallpaperaccess.com/full/803470.jpg') center/cover no-repeat;
+    height: 100vh; /* changed from 90vh to 100vh */
+    display: flex;
+    align-items: center;
+    color: white;
+    font-family: serif;
+    padding: 0 2rem;
+  }
+  
+  .hero::before {
+    content: "";
+    position: absolute;
+    top: 0; left: 0;
+    width: 100%; height: 100%;
+    background: rgba(0, 0, 0, 0.4);
+    z-index: 0;
+  }
+  
+  .hero-content {
+    position: relative;
+    z-index: 1;
+    max-width: 600px;
+    margin-left: 60px;
+    text-align: left;
+  }
+  
+  .hero-content h2 {
+    font-size: 2.3rem; /* ~48px */
+    font-family: serif;
+    line-height: 1.3;
+    margin-bottom: 10px;
+  }
+  
+  .underline {
+    width: 150px;
+    height: 4.5px;
+    background-color: #ff5e00;
+    margin: 0; /* Top, Right, Bottom, Left */
+    border-radius: 0px;
+    text-align: left;
+  }
+  
+  
+  .hero-content p {
+    font-size: 1.125rem; /* ~18px */
+    margin-bottom: 30px;
+    font-weight: 400;
+    line-height: 1.6;
+  }
+  
+  .hero-content button {
+    padding: 12px 28px;
+    font-size: 1rem;
+    font-weight: 600;
+    background: transparent;
+    color: white;
+    border: 1px solid #ff5e00;
+    cursor: pointer;
+    transition: all 0s ease;
+    font-family: serif;
+  }
+  
+  .hero-content button:hover {
+    background-color: #ff5e00;
+    color: #fff;
+  }
+  
